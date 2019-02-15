@@ -1,0 +1,1 @@
+create table PRODUCT (ID int not null, NAME varchar(50), PRODUCT_COUNT int, PRICE_PER_PRODUCT int );
