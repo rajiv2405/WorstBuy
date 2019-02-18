@@ -27,7 +27,9 @@ public class PriceCalculationServiceImpl implements PriceCalculationService {
 		phoneList.add(new Long(2));
 		phoneList.add(new Long(3));
 	}
-	//Calculate total price with discount and VAT applied	
+	/**
+	   Calculate total price with discount and VAT applied
+	**/
 	public Double calculateTotalPriceWithDiscountAndVAT(int numOfItemsPurchased,
 			com.shop.worstBuy.entity.Product availableProduct, boolean isInsuranceOpted) {
 		double discountOffered = 0.0;
