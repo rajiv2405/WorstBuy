@@ -28,8 +28,6 @@ public class ShoppingController {
 	public ShoppingService service;
 	
 	
-
-		
 	@GetMapping("/retrieve")
 	public List<Product> retrieveProductList(){
 		List<Product> productList = service.retrieveProducts();	
